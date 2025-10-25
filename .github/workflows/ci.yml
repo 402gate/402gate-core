@@ -5,8 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: echo "Devnet preview CI"
-      node_modules
-dist
-.env
-
+      - run: echo "✅ 402Gate Devnet CI running successfully"
